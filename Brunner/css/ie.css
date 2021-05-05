@@ -1,0 +1,12 @@
+_:-ms-fullscreen, :root .ie1 {
+	height: 800px;
+}
+_:-ms-fullscreen, :root .ie2 {
+	height: 1300px;
+}
+_:-ms-fullscreen, :root .ie3 {
+	height: 800px;
+}
+_:-ms-fullscreen, :root .ie4 {
+	height: 700px;
+}
