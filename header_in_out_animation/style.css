@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:900");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-wrapper {
+  text-align: center;
+  height: 110px;
+}
+header .header-wrapper > * {
+  margin: 0;
+}
+header .header-wrapper .header-greeting {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 70px;
+  line-height: 0.3;
+}
+header .header-wrapper .header-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: 'Source sans Pro', sans-serif;
+}
+header .header-wrapper .header-sub-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.header-wrapper .spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-wrapper .spinner-wrapper span:not(.spinner) {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+.header-wrapper .spinner-wrapper .spinner {
+  font-size: 30px;
+  height: 20px;
+  width: 30px;
+  margin: auto 10px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+section {
+  height: 100vh;
+}
